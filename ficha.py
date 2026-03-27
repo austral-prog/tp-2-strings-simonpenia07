@@ -46,11 +46,11 @@ def ficha():
     nombrem = Nombre.lower()
     EspacioU = NombreL.find(' ')
     print(f'Usuario: {NombreL[EspacioU+1:]}.{NombreL[:EspacioU]}')
-    print(f'Email valido: {'@' in Email}')
+    print(f'Email valido: {"@" in Email}')
     donde_arroba = Emailm.find('@')
     print(f'Dominio: {Emailm[donde_arroba+1:]}')
     print(f'Nombre para archivo: {NombreT.replace(" ","_")}')
-    print(f'Cantidad de a: {NombreL.count('a')}')
+    print(f'Cantidad de a: {NombreL.count("a")}')
     NombreI = NombreS[::-1]
     print(f'Codigo secreto: {NombreI.upper()}')
     print(f'Nota 1: {Nota1}')
