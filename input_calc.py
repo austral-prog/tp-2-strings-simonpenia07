@@ -12,4 +12,3 @@ def rectangle():
     print(f"Area: {area}")
     Perimetro = BaseE * 2 + AlturaE * 2
     print(f"Perimetro: {Perimetro}")
-rectangle()

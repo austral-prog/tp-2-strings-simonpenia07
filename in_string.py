@@ -14,4 +14,3 @@ def check_vowels():
     print(f'Contiene o: {contieneo}')
     contieneu = 'u' in nombremin
     print(f'Contiene u: {contieneu}')
-check_vowels()

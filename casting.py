@@ -9,4 +9,3 @@ def casting():
     print(f'Descuento: {descuento}')
     print(f'Precio con descuento: {precioconD}')
     print(f'Total: {Total}')
-casting()
