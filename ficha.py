@@ -1,6 +1,3 @@
-
-
-
 def ficha():
     """Ejercicio integrador. Lee nombre, email y 3 notas, y genera una ficha
     de alumno aplicando: strip, title, lower, upper, int, len, find, slicing,
@@ -27,15 +24,15 @@ def ficha():
     #   - Código secreto: nombre invertido en mayúsculas
     #   - Las 3 notas, su suma, promedio y promedio entero
     #   - Cierre decorativo usando repetición de string ("=" * 24)
-    Nombre = input('Ingrese nombre: ')
+    Nombre = input()
     NombreS = Nombre.strip()
     NombreT = NombreS.title()
     NombreL = NombreS.lower()
-    Email = input('Ingrese email: ')
+    Email = input()
     Emailm = Email.lower()
-    Nota1 = int(input('Ingrese nota 1: '))
-    Nota2 = int(input('Ingrese nota 2: '))
-    Nota3 = int(input('Ingrese nota 3: '))
+    Nota1 = int(input())
+    Nota2 = int(input())
+    Nota3 = int(input())
     print('''========================
     FICHA DEL ALUMNO
 ========================''')
