@@ -1,8 +1,8 @@
 def casting():
     """Lee precio, descuento y cantidad como texto y calcula el precio con descuento y el total."""
-    precio = input('Precio: ')
-    descuento = input('Descuento: ')
-    cantidad = input('Cantidad: ')
+    precio = input()
+    descuento = input()
+    cantidad = input()
     precioconD = int(precio) - float(descuento)
     Total = float(precioconD) * int(cantidad)
     print(f'Precio: {precio}')
